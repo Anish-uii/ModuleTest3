@@ -1,0 +1,29 @@
+uuid: 83d1628e-1511-490f-afa3-c154e323a747
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.connect-with-us
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_connectwithus
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: 'system_menu_block:connect-with-us'
+settings:
+  id: 'system_menu_block:connect-with-us'
+  label: 'Connect With Us'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/*'

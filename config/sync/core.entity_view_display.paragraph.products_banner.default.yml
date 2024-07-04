@@ -1,0 +1,29 @@
+uuid: 1bf6dd64-cb51-42a2-8eca-af1792b41a65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.products_banner.field_banner_image
+    - field.field.paragraph.products_banner.field_banner_quote
+    - image.style.large
+    - paragraphs.paragraphs_type.products_banner
+  module:
+    - image
+id: paragraph.products_banner.default
+targetEntityType: paragraph
+bundle: products_banner
+mode: default
+content:
+  field_banner_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: large
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_banner_quote: true

@@ -1,0 +1,19 @@
+uuid: 5f0becb3-fedd-436c-8e02-4d092e17eb78
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_product_features
+field_name: field_product_features
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

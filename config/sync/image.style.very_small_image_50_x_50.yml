@@ -1,0 +1,14 @@
+uuid: 5dbf8821-9f74-4693-8a7b-afc56115e057
+langcode: en
+status: true
+dependencies: {  }
+name: very_small_image_50_x_50
+label: 'Very Small Image (50 x 50)'
+effects:
+  05261a2f-3b88-475c-8ae7-1af3cec5e34a:
+    uuid: 05261a2f-3b88-475c-8ae7-1af3cec5e34a
+    id: image_resize
+    weight: 1
+    data:
+      width: 50
+      height: 50
