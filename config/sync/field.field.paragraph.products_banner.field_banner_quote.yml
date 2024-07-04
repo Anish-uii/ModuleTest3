@@ -1,0 +1,19 @@
+uuid: ba4404c6-5591-45a3-b51d-09fc78d9822c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_banner_quote
+    - paragraphs.paragraphs_type.products_banner
+id: paragraph.products_banner.field_banner_quote
+field_name: field_banner_quote
+entity_type: paragraph
+bundle: products_banner
+label: 'Banner Quote'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
